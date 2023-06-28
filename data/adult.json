@@ -1,0 +1,204 @@
+{
+    "columns": [
+        {
+            "max": 90.0,
+            "min": 17.0,
+            "name": "Age",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                " Private",
+                " Self-emp-not-inc",
+                " Local-gov",
+                " State-gov",
+                " Self-emp-inc",
+                " Federal-gov",
+                " Without-pay"
+            ],
+            "name": "workclass",
+            "size": 7,
+            "type": "categorical"
+        },
+        {
+            "max": 1490400.0,
+            "min": 13492.0,
+            "name": "fnlwgt",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                " HS-grad",
+                " Some-college",
+                " Bachelors",
+                " Masters",
+                " Assoc-voc",
+                " 11th",
+                " Assoc-acdm",
+                " 10th",
+                " 7th-8th",
+                " Prof-school",
+                " 9th",
+                " 12th",
+                " Doctorate",
+                " 5th-6th",
+                " 1st-4th",
+                " Preschool"
+            ],
+            "name": "education",
+            "size": 16,
+            "type": "categorical"
+        },
+        {
+            "max": 16.0,
+            "min": 1.0,
+            "name": "education-num",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                " Married-civ-spouse",
+                " Never-married",
+                " Divorced",
+                " Separated",
+                " Widowed",
+                " Married-spouse-absent",
+                " Married-AF-spouse"
+            ],
+            "name": "marital-status",
+            "size": 7,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                " Craft-repair",
+                " Prof-specialty",
+                " Exec-managerial",
+                " Adm-clerical",
+                " Sales",
+                " Other-service",
+                " Machine-op-inspct",
+                " Transport-moving",
+                " Handlers-cleaners",
+                " Farming-fishing",
+                " Tech-support",
+                " Protective-serv",
+                " Priv-house-serv",
+                " Armed-Forces"
+            ],
+            "name": "occupation",
+            "size": 14,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                " Husband",
+                " Not-in-family",
+                " Own-child",
+                " Unmarried",
+                " Wife",
+                " Other-relative"
+            ],
+            "name": "relationship",
+            "size": 6,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                " White",
+                " Black",
+                " Asian-Pac-Islander",
+                " Amer-Indian-Eskimo",
+                " Other"
+            ],
+            "name": "race",
+            "size": 5,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                " Male",
+                " Female"
+            ],
+            "name": "sex",
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "max": 99999.0,
+            "min": 0.0,
+            "name": "capital-gain",
+            "type": "continuous"
+        },
+        {
+            "max": 4356.0,
+            "min": 0.0,
+            "name": "capital-loss",
+            "type": "continuous"
+        },
+        {
+            "max": 99.0,
+            "min": 1.0,
+            "name": "hours-per-week",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                " United-States",
+                " Mexico",
+                " Philippines",
+                " Germany",
+                " Puerto-Rico",
+                " Canada",
+                " El-Salvador",
+                " India",
+                " Cuba",
+                " England",
+                " China",
+                " Jamaica",
+                " South",
+                " Italy",
+                " Dominican-Republic",
+                " Japan",
+                " Guatemala",
+                " Vietnam",
+                " Columbia",
+                " Poland",
+                " Haiti",
+                " Portugal",
+                " Iran",
+                " Taiwan",
+                " Greece",
+                " Nicaragua",
+                " Peru",
+                " Ecuador",
+                " Ireland",
+                " France",
+                " Thailand",
+                " Hong",
+                " Cambodia",
+                " Trinadad&Tobago",
+                " Yugoslavia",
+                " Outlying-US(Guam-USVI-etc)",
+                " Laos",
+                " Scotland",
+                " Honduras",
+                " Hungary",
+                " Holand-Netherlands"
+            ],
+            "name": "native-country",
+            "size": 41,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                " <=50K",
+                " >50K"
+            ],
+            "name": "label",
+            "size": 2,
+            "type": "categorical"
+        }
+    ],
+    "problem_type": "binary_classification"
+}
